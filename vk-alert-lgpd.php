@@ -22,21 +22,18 @@
       100% { display: none; visible: hidden; bottom: -200px; }
     }
 </style>
-<div id="alertalgpd" class="fixado-bottom uk-animation-slide-bottom" style="background-color: white;">
-    <div class="uk-container uk-padding-small">
-        <div class="uk-text-center" uk-grid>
-            <div class="uk-width-2-3@m uk-text-right">
-                Usamos cookies em nosso site para fornecer a experiência mais relevante, lembrando suas preferências e visitas repetidas.
-                Ao clicar em “Aceitar todos”, você concorda com o uso de TODOS os cookies. No entanto, você pode visitar "Configurações de cookies" para fornecer um consentimento controlado.
-            </div>
-            <div class="uk-width-1-3@m uk-text-left">
-                <a href="TERMOS_PARA_LER.PHP" class="uk-button uk-button-default">Detalhes</a>
-                <a onclick="checkCookie()" class="uk-button uk-button-primary" style="background-color: black;">Aceitar</a>
-            </div>
+<div id="alertalgpd" class="fixado-bottom uk-padding-small uk-animation-slide-bottom" style="background-color: white;">
+    <div id="cookaceite"></div>
+    <div class="uk-text-center" uk-grid>
+        <div class="uk-width-2-3 uk-text-right">
+            Usamos cookies em nosso site para fornecer a experiência mais relevante, lembrando suas preferências e visitas repetidas. Ao clicar em “Aceitar todos”, você concorda com o uso de TODOS os cookies. No entanto, você pode visitar "Configurações de cookies" para fornecer um consentimento controlado.
+        </div>
+        <div class="uk-width-1-3 uk-text-left">
+            <a href="TERMOS_PARA_LER.PHP" class="uk-button uk-button-default">Detalhes</a>
+            <a onclick="checkCookie()" class="uk-button uk-button-primary" style="background-color: black;">Aceitar</a>
         </div>
     </div>
 </div>
-<div id="cookaceite"></div>
     <?php
 }; ?>
 
